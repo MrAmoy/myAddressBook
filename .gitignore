@@ -61,3 +61,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/misc.xml
+.idea/libraries/mysql_connector_java_5_1_42_bin.xml
+myAddressBook.iml
+.idea/uiDesigner.xml
+*.xml

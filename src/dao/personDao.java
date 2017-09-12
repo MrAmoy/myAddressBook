@@ -15,7 +15,7 @@ public class personDao {
             String sql = "select * from people";
             ps = conn.prepareStatement(sql);
             rs = ps.executeQuery();
-            List list = new ArrayList();
+            List<person> list = new ArrayList<>();
             person p;
             while(rs.next()) {
                 p = new person();
